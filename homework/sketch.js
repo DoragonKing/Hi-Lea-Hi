@@ -8,7 +8,8 @@ function setup () {
 function draw () {
 
   background (116);
-  strokeWeight(0);
+  //noStroke()
+  strokeWeight(1);
   fill( 62,106,217 );
   //rectangle 1
   rect(50,400, 10,60);
@@ -95,20 +96,20 @@ function draw () {
   rect(350,100,20,10)
   rect(360,90,20,10)
   //armband 5y,6x
-  rect(120,450,10,20)
-  rect(130,450,10,30)
-  rect(140,460,10,30)
-  rect(150,470,10,20)
+  rect(120,420,10,20)
+  rect(130,420,10,30)
+  rect(140,430,10,30)
+  rect(150,440,10,20)
   //skin 9x 4y
   fill(237,192,192);
   rect(140,360,10,20)
   rect(150,360,10,30)
   rect(160,360,20,20)
-  rect(150,490,30,20)
-  rect(160,480,10,10)
-  //leg skin
-  rect(160,560,30,20)
-  rect(230,560,30,20)
+  rect(150,460,30,20)
+  rect(160,450,10,10)
+  //leg skin changed to much for what was here to be reliable
+  rect(160,520,30,20)
+  rect(230,520,30,20)
   //face
   rect(180,240,10,40)
   rect(190,230,10,70)
@@ -121,7 +122,79 @@ function draw () {
   rect(260,210,10,120)
   rect(270,200,10,130)
   rect(280,240,10,80)
+  rect(290,240,10,80)
+  rect(300,240,10,70)
+  rect(310,230,10,40)
 
+  fill(217,122,122)
+  rect(170,190,10,110)
+  rect(180,180,10,60)
+  rect(180,280,10,30)
+  rect(190,170,10,40)
+  rect(190,300,10,20)
+  rect(200,310,10,20)
+  rect(210,320,10,20)
+  rect(220,330,30,10)
+  rect(200,160,30,40)
+  rect(230,180,10,20)
+  rect(240,190,10,20)
+  rect(250,200,10,20)
+  rect(260,190,10,20)
+  rect(270,180,10,20)
+  rect(280,160,10,40)
+  rect(290,170,10,30)
+  rect(300,180,10,20)
+  rect(310,180,10,30)
+  rect(320,200,10,70)
+  rect(310,270,10,30)
+  //scar 18x 15y
+  rect(230,250,10,10)
+  rect(240,240,20,10)
 
+  //foooooo why is the code so looong?
+//the few white parts
+  fill(255)
+  rect(80,90,20,20)
+  rect(200,400-190,30,30)
+  rect(280,400-190,30,30)
+//the eyes
+  fill(159,30,55)
+  rect(290,210,20,20)
+  rect(210,210,20,20)
+//the few red parts starting with the legs
+  fill(176,14,45)
+  rect(160,540,30,70)
+  rect(230,540,30,70)
+  //red armband
+  rect(110,400,10,30)
+  rect(120,380,10,40)
+  rect(130,370,10,40)
+  rect(140,380,10,20)
+  //top of shirt
+  rect(220,340,30,10)
+  rect(230,350,10,10)
+//main clothing 12x 2y
+  fill(228)
+  rect(170,380,10,80)
+  rect(180,360,80,150)
+  rect(260,360,10,50)
+  rect(270,370,10,40)
+  rect(250,350,10,10)
+  rect(150,480,30,30)
+  rect(190,350,30,10)
+  rect(200,340,10,10)
+
+  //darker metal 1st is the horn part left
+  fill(135,100,120)
+  rect(80,110,20,10)
+  rect(90,120,20,10)
+  rect(100,130,20,10)
+  rect(110,140,20,20)
+
+  //metal headband
+  rect(170,160,10,30)
+  rect(180,150,10,30)
+  rect(190,140,10,30)
+  rect(200,130,10,30)
 
 }
