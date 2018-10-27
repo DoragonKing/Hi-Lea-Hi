@@ -8,7 +8,7 @@ function setup () {
 function draw () {
 
   background (116);
-  //noStroke()
+  noStroke()
   strokeWeight(1);
   fill( 62,106,217 );
   //rectangle 1
@@ -109,7 +109,7 @@ function draw () {
   rect(160,450,10,10)
   //leg skin changed to much for what was here to be reliable
   rect(160,520,30,20)
-  rect(230,520,30,20)
+  rect(220,520,30,20)
   //face
   rect(180,240,10,40)
   rect(190,230,10,70)
@@ -164,7 +164,7 @@ function draw () {
 //the few red parts starting with the legs
   fill(176,14,45)
   rect(160,540,30,70)
-  rect(230,540,30,70)
+  rect(220,540,30,70)
   //red armband
   rect(110,400,10,30)
   rect(120,380,10,40)
@@ -196,5 +196,74 @@ function draw () {
   rect(180,150,10,30)
   rect(190,140,10,30)
   rect(200,130,10,30)
+  //horn right
+  rect(350,120,10,20)
+  rect(360,110,10,20)
+  rect(370,100,10,20)
+
+  //the shoulderpads starting with left, after a gap, its right
+  rect(150,350,40,10)
+  rect(150,340,50,10)
+  rect(160,330,50,10)
+  rect(170,320,30,10)
+
+  rect(250,330,10,20)
+  rect(260,330,10,30)
+
+  //dark grey of silver parts
+  rect(210,340,10,10)
+  rect(220,350,10,10)
+  rect(230,360,10,10)
+  rect(240,350,10,10)
+
+  //line down the clothing ignoring the darker part
+  rect(240,370,10,40)
+
+  rect(220,430,10,90)
+  rect(180,460,80,10)
+  rect(160,510,90,10)
+  rect(150,500,10,10)
+  rect(250,500,10,10)
+
+  //facial features that are black
+  fill(0)
+  //eyelash
+  rect(190,210,10,20)
+  rect(200,200,30,10)
+  rect(280,200,30,10)
+  rect(310,210,10,20)
+  //nose
+  rect(250,250,10,10)
+  rect(260,260,10,10)
+  rect(250,270,10,10)
+  //mouth
+  rect(220,290,40,10)
+
+  //lighter clothes shading
+  fill(173,144,160)
+  rect(190,410,80,10)
+  rect(190,420,60,10)
+  rect(180,400,10,10)
+
+  //darker grey line
+  fill(62,44,82)
+  rect(220,420,10,10)
+  rect(230,410,10,10)
+
+  //shoes
+  fill(228)
+  rect(160,610,30,20)
+  rect(220,610,30,20)
+
+  //hair highlights
+  fill(156,184,253)
+  rect(230,160,50,10);
+  rect(160,130,40,10);
+  rect(150,120,10,10);
+  rect(130,110,20,10);
+
+  rect(300,130,10,10);
+  rect(310,120,10,10);
+  rect(320,110,10,10);
 
 }
