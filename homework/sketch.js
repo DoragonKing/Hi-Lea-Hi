@@ -265,5 +265,5 @@ function draw () {
   rect(300,130,10,10);
   rect(310,120,10,10);
   rect(320,110,10,10);
-
+//after the hair highlights we're done
 }
